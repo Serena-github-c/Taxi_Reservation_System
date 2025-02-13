@@ -9,5 +9,5 @@ Its primary function is to streamline the reservation process, allowing clients 
 
 By offering a comprehensive overview of each company, branch, and associated entities, the database facilitates effective management, improves resource allocation, and ensures a seamless coordination of services. 
 
-Through this innovative approach, the TAXI RESERVATION database aims to bring about heightened efficiency, improved customer satisfaction, and a more organized and responsive taxi 
+Through this innovative approach, the TAXI RESERVATION database aims to bring about heightened efficiency, improved customer satisfaction, and a more organized and responsive taxi service industry.
 
