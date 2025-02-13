@@ -1,0 +1,22 @@
+# Business Rules
+
+◙	A Taxi Company has a unique name, a unique company registration number, a founding date, headquarter manager, headquarter address, and headquarter phone number. Each company can have many branches.
+
+◙	Branch: Each branch has a name, an address, a phone number, a manager, two administrative staffs, taxi car owners, and drivers.
+
+◙	Staff: Each of the manager and the administrative staff has a name, a social security number, office number, address, birth date and phone number. They can have multiple phone numbers, and their age should be between 18 and 65.
+
+◙	Car Owners: They can provide one or more cars to the company. Each owner has a name, id, date of birth, an address, and a phone number.
+
+◙	Taxi cars: Each taxi car has a unique plate number, a model, one or more colors, and number of seats. A taxi car can be driven by any driver.
+
+◙	Drivers: Each driver has an id, name, age (less than 60), an address, phone number, and net salary. Each driver is assigned to a specific branch. A driver can be an owner of a car, and in this case he can only drive his own car.
+
+
+
+
+◙	Clients: All these taxis are only available for private clients. The client information is collected through phone calls. Each client has a name, an id, an address, and a phone number.
+
+◙	Reservation: When a reservation is selected, the name and phone number of the client are taken, then the pick-up date/time and pick-up/drop-off address are noted, in addition to the chosen company and car. Each reservation is allocated a unique reservation_id. The reservation is assigned to a driver, start/end time of the trip, and fees. 
+
+◙	Note that if the driver makes more than three trips per a day, he will receive an extra of 5% of his net salary.
