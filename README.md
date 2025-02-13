@@ -11,3 +11,45 @@ By offering a comprehensive overview of each company, branch, and associated ent
 
 Through this innovative approach, the TAXI RESERVATION database aims to bring about heightened efficiency, improved customer satisfaction, and a more organized and responsive taxi service industry.
 
+## Key Features:
+    
+    - Supports multiple taxi companies and their branches
+    - Manages drivers, car owners, and clients
+    - Implements reservation tracking with assigned drivers
+    - Normalized database design (1NF, 2NF, 3NF)
+    - Uses triggers to enforce business rules
+
+### The system allows clients to:
+
+    Select their preferred taxi company
+    Reserve a car and get an allocated driver
+    Improve taxi company service efficiency
+
+
+## Implementation Steps
+    1. Table creation
+    2. Sample data insertion
+    3. Queries to get specific info
+    4. User Views
+
+### User views
+A user view is a virtual table that is based on the result of a SELECT query.
+Views are useful for many reasons:
+1.	Abstraction: Views hide the complexity of underlying tables, showing only the necessary information.
+2.	Security: Views allow us to restrict access to certain columns or rows, providing a security layer.
+3.	Aggregation: Views can simplify aggregate queries, such as sum, average, etc., by pre-defining these aggregations.
+
+Users can query views in the same way they query tables, and they can be granted permissions to access the view even if they do not have direct access to the underlying tables.
+
+We will create three views.
+
+    1.Client view: This view is to see general info about trips, including the client’s name, the pickup address and destination address, as well as the fees. It’s a simplified view that only selects necessary information. 
+    2.Driver_Monthly_Salary_Report: This view shows the drivers who work at each company, in addition to their salary.  
+    3.Owner_Driver_Car View: This view is used to establish a relationship between drivers, car owner, and cars.
+
+
+
+
+
+
+    
